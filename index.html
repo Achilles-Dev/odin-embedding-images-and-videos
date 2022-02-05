@@ -34,14 +34,14 @@
         <div class="main"> 
             <div class="content">
                 <div class="video">
-                    <iframe width="640" height="360" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="800" height="460" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="video-title">
                     <h4 >Embed videos and playlists</h4>
                     <div class="video-lists">
                         <ul>
-                            <li class="left-list-item">346,928 views</li>
-                            <li class="left-list-item">May 13, 2016</li>
+                            
+                            <li class="left-list-item"><h5>346,928 views <span>May 13, 2016</span></h5></li>
                             <a href="#">
                                 <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                                 <li class="right-list-item">1.2K</li>
@@ -53,11 +53,14 @@
                             </a>
                             
                             <a href="#">
-                                <li><i class="fa fa-share" aria-hidden="true"></i></li>
+                                <i class="fa fa-share" aria-hidden="true"></i>
                                 <li class="right-list-item">Share</li>
                             </a>
+                            <a href="#">
+                                <i class="fas fa-save"></i>
+                                <li class="right-list-item">Save</li>
+                            </a>
                             
-                            <li class="right-list-item">Save</li>
                         </ul>
                     </div>
                     <div class="subscribe">
@@ -85,10 +88,14 @@
                 </div>
                 <div class="comments">
                     <form action="#">
-                        <label for="comment"></label>
-                        <input type="text" name="comment" placeholder="Add a public comment">
-                        <button>CANCEL</button>
-                        <button type="submit">COMMENT</button>
+                        <div class="comment-input">   
+                            <label for="comment"></label>
+                            <input type="text" name="comment" placeholder="Add a public comment">
+                        </div>
+                        <div class="comment-buttons"> 
+                            <button id="cancel">CANCEL</button>
+                            <button type="submit">COMMENT</button>
+                        </div>
                     </form>
                 </div>
             </div>
